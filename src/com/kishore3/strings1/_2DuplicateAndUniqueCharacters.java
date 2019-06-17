@@ -1,4 +1,4 @@
-package com.kishore3.strings;
+package com.kishore3.strings1;
 
 import java.util.HashMap;
 import java.util.Map;
