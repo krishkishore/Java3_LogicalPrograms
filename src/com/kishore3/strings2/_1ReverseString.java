@@ -2,6 +2,9 @@ package com.kishore3.strings2;
 
 // Using charAt()
 
+// Input String : Hello World
+// outputString : dlroW olleH
+
 public class _1ReverseString {
 	public static void main(String[] args) {
 
