@@ -2,7 +2,7 @@ package com.kishore3.strings3;
 
 // Palindrome or Not
 
-public class Palindrome {
+public class _1Palindrome {
 	public static void main(String[] args) {
 
 		String inputString = "WOW";
