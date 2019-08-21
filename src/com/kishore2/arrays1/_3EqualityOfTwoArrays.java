@@ -10,7 +10,7 @@ public class _3EqualityOfTwoArrays {
 		boolean isEqual = true;
 
 		if (firstArray.length == secondArray.length) {
-			for (int i = 0; i < firstArray.length; i++) {
+			for (int i = 0; i < firstArray.length && isEqual; i++) {
 				if (firstArray[i] != secondArray[i]) {
 					isEqual = false;
 				}
@@ -37,6 +37,7 @@ public class _3EqualityOfTwoArrays {
 
 	public static void main(String[] args) {
 		equality(new int[] { 21, 57, 11, 37, 24 }, new int[] { 21, 57, 11, 37, 24 });
+		equality(new int[] { 21, 57, 11, 37, 24 }, new int[] { 21, 57, 11, 37, 23 });
 		predefinedEqualsMethod(new int[] { 21, 57, 11, 37, 24 }, new int[] { 21, 57, 11, 37, 24 });
 	}
 

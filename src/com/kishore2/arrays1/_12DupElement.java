@@ -14,11 +14,11 @@ public class _12DupElement {
 				if ((a[i] == a[j]) && (i != j)) {
 					if (!al.contains(a[i])) {
 						al.add(a[i]);
-						System.out.println("Duplicate Elements:: " + a[i]);
 					}
 				}
 			}
 		}
+		System.out.println("Duplicate Elements:: " + al);
 
 	}
 
